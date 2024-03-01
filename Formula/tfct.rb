@@ -2,13 +2,13 @@ class Tfct < Formula
   desc "A tool to help manage a toolset that helps manage your deployments"
   homepage "https://tfc-toolset.rs"
   if Hardware::CPU.type == :arm
-    url "https://github.com/06chaynes/tfc-toolset/releases/download/tfct/v0.2.0/tfct-aarch64-apple-darwin.tar.xz"
-    sha256 "98222f65c3a831b5ce963a479d79f24c2f1e226f38fbf92ae88b1973e3975232"
+    url "https://github.com/06chaynes/tfc-toolset/releases/download/tfct/v0.2.1/tfct-aarch64-apple-darwin.tar.xz"
+    sha256 "96fd1ac95a0d52dd0ee24af99967a2d98cd3c86c01243a5d5ea2f822c0244d71"
   else
-    url "https://github.com/06chaynes/tfc-toolset/releases/download/tfct/v0.2.0/tfct-x86_64-apple-darwin.tar.xz"
-    sha256 "5c6b079d99b6a50527d78adcec59f005b64d34bef822bc715bf1ffeec2a6ae7c"
+    url "https://github.com/06chaynes/tfc-toolset/releases/download/tfct/v0.2.1/tfct-x86_64-apple-darwin.tar.xz"
+    sha256 "f13bca2de45c1d1613a071792436212fd5a0b54f2670d481b1b19374c8272ae0"
   end
-  version "0.2.0"
+  version "0.2.1"
   license "MIT OR Apache-2.0"
 
   def install
